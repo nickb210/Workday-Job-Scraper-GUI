@@ -7,9 +7,11 @@ import time, sys, itertools, json
 from scripts.typeWriterEffect import typeWriter as typeWriter
 import scripts.workday_linkgen as workday_linkgen
 
-CHROME_PATH     = "/Users/nicholausbrell/python/selenium/chromedriver"
+CHROME_PATH     = "./scripts/chrome/chromedriver"
 BAH_WORKDAY_URL = "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs"
 TM_WORKDAY_URL = "https://trendmicro.wd3.myworkdayjobs.com/en-US/External"
+
+
 
 url_dict = {'Booz Allen Hamilton': 'https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs', 
             'Trend Micro'        : 'https://trendmicro.wd3.myworkdayjobs.com/en-US/External'}
