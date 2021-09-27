@@ -9,7 +9,7 @@ from tkinter import messagebox, scrolledtext
 from time import strftime, gmtime
 from tkinter import font as tkFont
 #from jobSearchForGui import job_search
-from scripts.jobsSearch_json import job_search
+from scripts.jobsSearch import job_search
 
 FLAG = 0
 
