@@ -156,9 +156,7 @@ app.rowconfigure(1, weight=1)
 
 
 style = ttk.Style(app)
-#app.tk.call('source', '/Users/nicholausbrell/python/ttk themes/Azure-ttk-theme-main/azure-dark.tcl')
-#style.theme_use('azure-dark')
-app.tk.call('source', '/Users/nicholausbrell/python/ttk themes/Forest-ttk-theme-master/forest-dark.tcl')
+app.tk.call('source', './themes/Forest-ttk-theme-master/forest-dark.tcl')
 style.theme_use('forest-dark')
 
 
